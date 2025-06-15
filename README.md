@@ -59,23 +59,15 @@ By modeling these behaviors, this prototype offers insight into how **vision-bas
 - 🌐 **3D Graphs**: Post-simulation plots showing movement over time in 3D space.
 - ⚠️ **Warnings and Alerts**: Visual trigger rings + audio cues enhance situational awareness.
 
+▶️ Watch Full Simulation Video](https://youtu.be/AJYhdCPIkDg)
+
 ---
+
 
 ### 🚀 Future Scope
 - Integrate **Kalman Filters** or **Optical Flow** for smoother tracking in noisy environments.
 - Add **3D drone movement logic** and **altitude estimation** for realistic aerial dynamics.
 - Port to **ROS2 and Gazebo** for robotics hardware integration or UAV simulation.
-
----
-
-### 📂 Repository Contents
-- `ChaseBot_Enhanced.m` – Main simulation code
-- `chime.wav` & `beep.wav` – Sound effects
-- `README.md` – Project description and application
-- Helper functions:
-  - `getLargestRegion()` – Extracts the largest detected object
-  - `drawBot()` – Draws circular aircraft representations
-  - `improvedAvoidance()` – Avoids obstacles during pursuit
 
 ---
 
